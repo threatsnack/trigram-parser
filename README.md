@@ -12,13 +12,14 @@ You may need to make the python script executable:
 
 # Pass Files as an Argument
 For example, `./trigram.py mytext.txt`
+https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/onefile.gif
 
-![Pass any file as an argument](https://github.com/threatsnack/trigram-parser/readme-assets/onefile.gif)
+![Pass any file as an argument](https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/onefile.gif)
 
 You can pass more than one file if you'd like. For example:
 `./trigram.py mytext.txt myothertext.txt`
 
-![Pass multiple files as an argument](https://github.com/threatsnack/trigram-parser/readme-assets/twofiles.mp4)
+![Pass multiple files as an argument](https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/twofiles.mp4)
 
 As you can see above, when you pass more than one file as an argument to the script, it will calculate the number of trigrams for each, and will include the name of the file it's parsing. This is intended behavior.
 
@@ -28,7 +29,7 @@ If you'd like to calculate the combined number of trigrams for more than one fil
 The script will also read input from stdin. For example,
 `cat myfile.txt | ./trigram.py`
 
-![Pipe files to the script](https://github.com/threatsnack/trigram-parser/readme-assets/stdin.gif)
+![Pipe files to the script](https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/stdin.gif)
 
 You can pipe more than one file to the script as well if you'd like. When you pass the script input from stdin, the output will not include a file name. This is on purpose. For example, if you concatenate two files together, it makes sense that you do not need results divided by each individual file.
 
