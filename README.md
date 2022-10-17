@@ -13,12 +13,12 @@ You may need to make the python script executable:
 ## Pass Files as an Argument :incoming_envelope:
 For example, `./trigram.py mytext.txt`
 
-![Pass any file as an argument](https://github.com/threatsnack/trigram-parser/blob/trigram-parser-gif/readme-assets/onefile.gif)
+![Pass any file as an argument](https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/onefile.gif)
 
 You can pass more than one file if you'd like. For example:
 `./trigram.py mytext.txt myothertext.txt`
 
-![Pass multiple files as an argument](https://github.com/threatsnack/trigram-parser/blob/trigram-parser-gif/readme-assets/twofiles.gif)
+![Pass multiple files as an argument](https://github.com/threatsnack/trigram-parser/blob/main/readme-assets/twofiles.gif)
 
 As you can see above, when you pass more than one file as an argument to the script, it will calculate the number of trigrams for each, and will include the name of the file it's parsing. This is intended behavior.
 
